@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
         drawer: Drawer(elevation: 20.0,
           child: ListView(
             children: <Widget>[
-              DrawerHeader(child: Text("${widget.value.firstName} ${widget.value.lastName}", style: TextStyle(color: Colors.black, fontSize: 24.0, fontWeight: FontWeight.bold),),decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight, List: [Colors.red, Colors.indigo, ])), ),
+              DrawerHeader(child: Text("${widget.value.firstName} ${widget.value.lastName}", style: TextStyle(color: Colors.black, fontSize: 24.0, fontWeight: FontWeight.bold),),decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight, colors: [Colors.red, Colors.indigo, ])), ),
               ListTile(
                 leading: Icon(Icons.account_circle),
                 title: Text("Profile"),
@@ -116,7 +116,7 @@ Widget transportCard(Transport transport){
   return Container(
     margin: EdgeInsets.only( right: 20.0,bottom: 10.0),
     width: 160,
-    decoration: BoxDecoration(gradient: LinearGradient(List: [Colors.purple,Colors.blueAccent],begin: Alignment.centerLeft,end: Alignment.topLeft),
+    decoration: BoxDecoration(gradient: LinearGradient(colors: [Colors.purple,Colors.blueAccent],begin: Alignment.centerLeft,end: Alignment.topLeft),
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(20.0)),
         boxShadow: [
