@@ -5,8 +5,7 @@ import 'package:flutter_app/transport.dart';
 
 class Home extends StatefulWidget {
 
-  final FormVal value;
-  Home({ this.value,Key key}):super(key: key);
+  Home({Key key}):super(key: key);
 
 
   @override
@@ -26,7 +25,7 @@ class _HomeState extends State<Home> {
         drawer: Drawer(elevation: 20.0,
           child: ListView(
             children: <Widget>[
-              DrawerHeader(child: Text("${widget.value.firstName} ${widget.value.lastName}", style: TextStyle(color: Colors.black, fontSize: 24.0, fontWeight: FontWeight.bold),),decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight, colors: [Colors.red, Colors.indigo, ])), ),
+              DrawerHeader(child: Text(" ", style: TextStyle(color: Colors.black, fontSize: 24.0, fontWeight: FontWeight.bold),),decoration: BoxDecoration(gradient: LinearGradient(begin: Alignment.topLeft,end: Alignment.bottomRight, colors: [Colors.red, Colors.indigo, ])), ),
               ListTile(
                 leading: Icon(Icons.account_circle),
                 title: Text("Profile"),
