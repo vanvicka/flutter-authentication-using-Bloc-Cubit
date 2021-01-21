@@ -3,7 +3,7 @@
 A new Flutter application.
 
 ## Screen Shots
-![](assets/signup_image.png)
+![Screenshot](https://github.com/vanvicka/flutter-authentication-using-Bloc-Cubit/blob/master/assets/signup__image.png?raw=true)
 
 
 
