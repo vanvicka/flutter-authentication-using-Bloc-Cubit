@@ -3,7 +3,7 @@
 A new Flutter application.
 
 ## Screen Shots
-![Screenshot](assets/signup_image.png)
+![](assets/signup_image.png)
 
 
 
